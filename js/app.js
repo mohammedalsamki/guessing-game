@@ -73,4 +73,5 @@ switch(like) {
           alert('You didnt answer :(');
           //console.log(last);
       }
-      
+
+      alert('Thanks for your answers :) '+ userwelcom);      

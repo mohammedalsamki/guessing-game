@@ -1,3 +1,15 @@
+
+
+
+footer{
+  height:50px; bottom:0;
+}
+content{
+  top:100px;
+  bottom:100px;
+  overflow:hidden; 
+}
+
 body {
 
     background-color: rgb(151, 104, 143);
@@ -61,4 +73,9 @@ body {
       font-weight : bold;
       color : rgb(88, 11, 104);
   
+  }
+  [data-icon]:before {
+    font-family: icons; /* BYO icon font, mapped smartly */
+    content: attr(data-icon);
+    speak: none; /* Not to be trusted, but hey. */
   }
