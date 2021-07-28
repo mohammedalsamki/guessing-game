@@ -94,7 +94,7 @@ function question7(){
 
   for(let x = 0; x < 6; x++ ){
     let bigGuess = prompt('Can you guess one of my favorite sports?');
-    if (favSport.includes(bigGuess.toLowerCase)){
+    if (favSport.includes(bigGuess)){
       alert('You are correct!');
       correct++;
       break;
