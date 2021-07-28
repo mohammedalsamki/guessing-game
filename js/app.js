@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 function nameOfCustomer(){
   let customerName = prompt('What is your name?');
@@ -15,7 +15,8 @@ function question1(){
     correct++;
   }else{
     alert('You are incorrect');
-  }}
+  }
+}
 
 question1();
 
@@ -90,7 +91,7 @@ question6();
 
 
 function question7(){
-  let favSport = ['football', 'lacrosse', 'mma', 'soccer', 'boxing'];
+  let favSport = ['football', 'lacrosse', 'mma', 'soccer', 'boxing' ,  'video games ', 'walking ' ];
 
   for(let x = 0; x < 6; x++ ){
     let bigGuess = prompt('Can you guess one of my favorite sports?');
@@ -104,6 +105,6 @@ function question7(){
   }}
 
 question7();
-
+alert('the correct answers are : football , lacrosse, mma, soccer, boxing , video games , walking ');
 
 alert('You got ' + correct + '/7');
