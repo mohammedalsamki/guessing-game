@@ -27,7 +27,8 @@ function question2(){
     correct++;
   }else{
     alert('You are incorrect');
-  }}
+  }
+}
 
 question2();
 
@@ -39,7 +40,8 @@ function question3(){
     correct++;
   }else{
     alert('You are incorrect');
-  }}
+  }
+}
 
 question3();
 
@@ -51,7 +53,8 @@ function question4(){
     correct++;
   }else{
     alert('You are incorrect');
-  }}
+  }
+}
 
 question4();
 
@@ -64,7 +67,8 @@ function question5(){
     correct++;
   }else{
     alert('You are incorrect');
-  }}
+  }
+}
 
 question5();
 
@@ -108,3 +112,5 @@ question7();
 alert('the correct answers are : football , lacrosse, mma, soccer, boxing , video games , walking ');
 
 alert('You got ' + correct + '/7');
+
+// almost finished 
